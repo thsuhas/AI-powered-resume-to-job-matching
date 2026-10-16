@@ -1,0 +1,301 @@
+{
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Languages",
+      "aliases": ["python", "python3", "python 3", "py", "python programming", "python scripting", "python developer"]
+    },
+    {
+      "name": "C++",
+      "category": "Languages",
+      "aliases": ["c++", "cpp", "c/c++", "c plus plus"]
+    },
+    {
+      "name": "Java",
+      "category": "Languages",
+      "aliases": ["java", "core java", "java programming", "java developer"]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Languages",
+      "aliases": ["javascript", "js", "es6", "ecmascript", "javascript programming", "vanilla javascript"]
+    },
+    {
+      "name": "TypeScript",
+      "category": "Languages",
+      "aliases": ["typescript", "ts"]
+    },
+    {
+      "name": "C#",
+      "category": "Languages",
+      "aliases": ["c#", "csharp", "c-sharp", ".net", "dot net", ".net core", "dotnet"]
+    },
+    {
+      "name": "Go",
+      "category": "Languages",
+      "aliases": ["golang", "go programming", "go language"]
+    },
+    {
+      "name": "Rust",
+      "category": "Languages",
+      "aliases": ["rust", "rustlang"]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "aliases": [
+        "sql",
+        "structured query language",
+        "sql queries",
+        "sql database",
+        "sql databases"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "aliases": ["postgresql", "postgres", "psql"]
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "aliases": ["mysql"]
+    },
+    {
+      "name": "SQLite",
+      "category": "Databases",
+      "aliases": ["sqlite", "sqlite3"]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "aliases": ["mongodb", "mongo", "nosql"]
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "aliases": ["redis", "in-memory cache"]
+    },
+    {
+      "name": "FastAPI",
+      "category": "Frameworks & Backend",
+      "aliases": ["fastapi", "fast-api"]
+    },
+    {
+      "name": "Flask",
+      "category": "Frameworks & Backend",
+      "aliases": ["flask"]
+    },
+    {
+      "name": "Django",
+      "category": "Frameworks & Backend",
+      "aliases": ["django", "django rest framework", "drf"]
+    },
+    {
+      "name": "React",
+      "category": "Frontend & Web",
+      "aliases": ["react", "react.js", "reactjs"]
+    },
+    {
+      "name": "Next.js",
+      "category": "Frontend & Web",
+      "aliases": ["next.js", "nextjs", "next js"]
+    },
+    {
+      "name": "Node.js",
+      "category": "Frameworks & Backend",
+      "aliases": ["node.js", "nodejs", "node js"]
+    },
+    {
+      "name": "Express",
+      "category": "Frameworks & Backend",
+      "aliases": ["express", "express.js", "expressjs"]
+    },
+    {
+      "name": "REST APIs",
+      "category": "Architecture & APIs",
+      "aliases": [
+        "rest api",
+        "rest apis",
+        "restful",
+        "restful api",
+        "restful apis",
+        "rest web services",
+        "restful web services",
+        "web apis",
+        "api development"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "category": "Architecture & APIs",
+      "aliases": ["graphql", "gql"]
+    },
+    {
+      "name": "Web Technologies",
+      "category": "Frontend & Web",
+      "aliases": ["html", "html5", "css", "css3", "html/css", "web technologies", "frontend web development"]
+    },
+    {
+      "name": "Git",
+      "category": "DevOps & Tools",
+      "aliases": ["git", "github", "gitlab", "version control", "source code management", "git version control"]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Tools",
+      "aliases": ["docker", "containerization", "docker container", "docker containers", "software containers"]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps & Tools",
+      "aliases": ["kubernetes", "k8s"]
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps & Tools",
+      "aliases": ["ci/cd", "ci cd", "continuous integration", "continuous deployment", "github actions"]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["aws", "amazon web services", "ec2", "s3", "lambda"]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["azure", "microsoft azure"]
+    },
+    {
+      "name": "GCP",
+      "category": "Cloud & Infrastructure",
+      "aliases": ["gcp", "google cloud", "google cloud platform"]
+    },
+    {
+      "name": "NumPy",
+      "category": "Data Science & ML",
+      "aliases": ["numpy"]
+    },
+    {
+      "name": "Pandas",
+      "category": "Data Science & ML",
+      "aliases": ["pandas"]
+    },
+    {
+      "name": "scikit-learn",
+      "category": "Data Science & ML",
+      "aliases": ["scikit-learn", "sklearn", "scikit learn"]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Data Science & ML",
+      "aliases": ["tensorflow", "tf"]
+    },
+    {
+      "name": "PyTorch",
+      "category": "Data Science & ML",
+      "aliases": ["pytorch", "torch"]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Data Science & ML",
+      "aliases": [
+        "machine learning",
+        "ml",
+        "statistical learning",
+        "machine learning algorithms",
+        "ml algorithms",
+        "machine learning models",
+        "machine learning concepts"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Data Science & ML",
+      "aliases": ["deep learning", "neural networks", "dnn", "cnn", "rnn"]
+    },
+    {
+      "name": "NLP",
+      "category": "Data Science & ML",
+      "aliases": ["nlp", "natural language processing", "text mining", "information extraction"]
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "category": "Fundamentals",
+      "aliases": [
+        "data structures",
+        "algorithms",
+        "dsa",
+        "data structures and algorithms",
+        "data structures & algorithms",
+        "data structures and algorithm",
+        "data structure",
+        "basic data structures",
+        "algorithm design",
+        "data structures & algorithm",
+        "data structures and algorithms (dsa)"
+      ]
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "category": "Fundamentals",
+      "aliases": [
+        "object-oriented programming",
+        "oop",
+        "oops",
+        "object oriented programming",
+        "oop concepts",
+        "oops concepts",
+        "object oriented programming concepts"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "category": "Fundamentals",
+      "aliases": [
+        "operating systems",
+        "operating system",
+        "os concepts",
+        "operating system concepts",
+        "os fundamentals"
+      ]
+    },
+    {
+      "name": "Computer Networks",
+      "category": "Fundamentals",
+      "aliases": [
+        "computer networks",
+        "computer networking",
+        "networking concepts",
+        "tcp/ip",
+        "network protocols"
+      ]
+    },
+    {
+      "name": "Linux",
+      "category": "DevOps & Tools",
+      "aliases": ["linux", "unix", "ubuntu", "bash", "shell scripting", "linux commands", "linux/unix"]
+    },
+    {
+      "name": "Testing & QA",
+      "category": "Engineering Practices",
+      "aliases": [
+        "unit testing",
+        "pytest",
+        "jest",
+        "test-driven development",
+        "tdd",
+        "integration testing",
+        "software testing",
+        "qa testing",
+        "quality assurance",
+        "test automation"
+      ]
+    },
+    {
+      "name": "Agile",
+      "category": "Engineering Practices",
+      "aliases": ["agile", "scrum", "kanban", "sprints"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "executed_at": "2026-10-16T13:43:27.074935+00:00",
+  "dataset_name": "CareerLens Synthetic Benchmark v1.0",
+  "dataset_size": 10,
+  "precision": 91.95,
+  "recall": 100.0,
+  "f1_score": 95.81,
+  "ranking_precision_at_5": 100.0,
+  "baseline_precision": 95.83,
+  "baseline_recall": 86.25,
+  "baseline_f1_score": 90.79,
+  "comparisons": [
+    {
+      "metric": "Skill Precision",
+      "proposed_method": 91.95,
+      "baseline_method": 95.83,
+      "difference": -3.88
+    },
+    {
+      "metric": "Skill Recall",
+      "proposed_method": 100.0,
+      "baseline_method": 86.25,
+      "difference": 13.75
+    },
+    {
+      "metric": "Skill F1-Score",
+      "proposed_method": 95.81,
+      "baseline_method": 90.79,
+      "difference": 5.02
+    }
+  ],
+  "methodology": "Ground truth skill annotations were curated across 10 synthetic resume-job description pairs covering diverse engineering domains (Backend, Frontend, ML, DevOps, Systems, QA, DBA). Extraction performance was evaluated by measuring True Positives, False Positives, and False Negatives against exact canonical skill mappings. The proposed phrase-aware NLP engine (using regex boundary tokens, multi-word n-grams, and alias normalisation) was systematically compared against a naive token-overlap baseline.",
+  "limitations": [
+    "Synthetic Data Scope: Benchmarks utilize synthetic profiles; real-world resumes contain irregular tables, multi-column formatting, and varying phrasing.",
+    "Dictionary Coverage: Skills not present in skills_db.json cannot be extracted without adding dictionary entries.",
+    "Absence of Semantic Negation: Simple pattern matching does not discern context negation (e.g., 'not looking for Python' vs 'must know Python').",
+    "Scanned Documents: PDFs saved purely as images cannot be extracted without an external OCR service."
+  ]
+}
