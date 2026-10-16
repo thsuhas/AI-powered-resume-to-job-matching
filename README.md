@@ -1,6 +1,6 @@
 # CareerLens — AI-Powered Job Intelligence Platform
 
-[![CI Workflow](https://github.com/careerlens/careerlens/actions/workflows/ci.yml/badge.svg)](https://github.com/careerlens/careerlens/actions/workflows/ci.yml)
+[![CI Workflow](https://github.com/thsuhas/AI-powered-resume-to-job-matching/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/thsuhas/AI-powered-resume-to-job-matching/actions/workflows/ci.yml)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178c6?logo=typescript)](https://www.typescriptlang.org/)
@@ -25,6 +25,29 @@ CareerLens operates on a core ethical commitment: **it is a career-planning and 
 5. **Deterministic Resume Recommendations**: Actionable improvement suggestions grounded strictly in observed requirements gaps without fabricated metrics or hallucinated advice.
 6. **Application Lifecycle Tracker**: Complete CRUD tracking for applications with 8 lifecycle states (`Interested`, `To Apply`, `Applied`, `Assessment`, `Interview`, `Offer`, `Rejected`, `Withdrawn`), target follow-up reminders, and salary range validations.
 7. **Empirical Matching Engine Benchmarking**: Built-in evaluation pipeline running against a synthetic dataset of 10 engineering profiles, measuring Precision, Recall, F1-Score, and Precision@5 ranking against a naive keyword baseline.
+
+---
+
+## Screenshots
+
+The screenshots below are placeholders until you capture and save the corresponding pages. Use demo or synthetic data only; do not include a real resume, personal contact details, browser credentials, or private application information.
+
+| Dashboard | Resume Analysis |
+| :---: | :---: |
+| ![CareerLens Dashboard](screenshots/dashboard.png) | ![CareerLens Resume Analysis](screenshots/resume-analysis.png) |
+
+| Application Tracker | Model Evaluation |
+| :---: | :---: |
+| ![CareerLens Application Tracker](screenshots/application-tracker.png) | ![CareerLens Model Evaluation](screenshots/model-evaluation.png) |
+
+To capture them on Windows, start the app with Docker Compose and open each route in a browser. Press `Win+Shift+S`, select the page content, then open the Snipping Tool notification and save each capture using the exact path below. Check the saved image before sharing it. The `screenshots/` directory is already present.
+
+| Page | Route | Save as |
+| :--- | :--- | :--- |
+| Dashboard | `http://localhost:3000/dashboard` | `screenshots/dashboard.png` |
+| Resume Analysis | `http://localhost:3000/analyze` | `screenshots/resume-analysis.png` |
+| Application Tracker | `http://localhost:3000/applications` | `screenshots/application-tracker.png` |
+| Model Evaluation | `http://localhost:3000/evaluation` | `screenshots/model-evaluation.png` |
 
 ---
 
@@ -76,7 +99,7 @@ careerlens/
 
 ### Prerequisites
 - Python 3.11 (the CI-tested version) and pip for local backend development
-- Node.js 20 and npm for local frontend development
+- Node.js 22 and npm for local frontend development
 - Docker Desktop with Docker Compose v2 for the containerized stack
 - PostgreSQL for a local PostgreSQL setup, or use SQLite for local development
 
